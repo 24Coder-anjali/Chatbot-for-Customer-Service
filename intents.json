@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "is anyone there"],
+      "responses": [
+        "Hello! I am your customer service assistant. How can I help you today?",
+        "Hi there! You can ask me about orders, returns, refunds, payments, delivery, or support."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thanks bye", "that is all"],
+      "responses": [
+        "Goodbye! Thanks for contacting customer support.",
+        "Have a great day. I am here whenever you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "that helped", "appreciate it"],
+      "responses": [
+        "You are welcome!",
+        "Happy to help."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "has my package shipped", "delivery tracking"],
+      "responses": [
+        "To track an order, please enter your order ID on the tracking page or share it with a support agent.",
+        "Your order status can be checked using the order ID sent to your registered email or phone number."
+      ]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["return policy", "how can i return", "i want to return product", "return an item", "exchange product"],
+      "responses": [
+        "Most products can be returned within 7 days of delivery if they are unused and in original packaging.",
+        "To start a return, open your order details and choose the return or exchange option."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund status", "when will i get refund", "refund not received", "money back", "payment refund"],
+      "responses": [
+        "Refunds are usually processed within 5 to 7 business days after the returned item is verified.",
+        "If your refund is delayed, please share your order ID with a support agent for checking."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": ["payment failed", "money deducted", "transaction failed", "card not working", "upi payment issue"],
+      "responses": [
+        "If payment failed but money was deducted, it is usually reversed by the bank within 3 to 5 business days.",
+        "Please avoid retrying multiple times. Check your bank statement and contact support with the transaction ID if needed."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["shipping charges", "delivery fee", "free delivery", "how long delivery takes", "delivery time"],
+      "responses": [
+        "Delivery usually takes 3 to 7 business days depending on your location.",
+        "Shipping charges and delivery time are shown at checkout before payment."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["cancel my order", "how to cancel order", "stop delivery", "cancel purchase", "remove order"],
+      "responses": [
+        "You can cancel an order from the order details page before it is shipped.",
+        "If the order has already shipped, you may refuse delivery or request a return after receiving it."
+      ]
+    },
+    {
+      "tag": "contact_agent",
+      "patterns": ["talk to agent", "customer care number", "human support", "connect me to support", "speak with representative"],
+      "responses": [
+        "I can connect you with a support agent. Please provide your name, order ID, and issue summary.",
+        "For human support, keep your order ID ready so the agent can help faster."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": ["support timing", "customer care hours", "when are you open", "working hours", "support available"],
+      "responses": [
+        "Customer support is available from 9 AM to 8 PM, Monday to Saturday.",
+        "You can still leave your query outside support hours and an agent will respond later."
+      ]
+    }
+  ]
+}
